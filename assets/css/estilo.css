@@ -1,0 +1,133 @@
+body{
+    background: #EAD5E6;
+}
+
+.caixa{
+    transform: translate(33%, 13%);
+    width: 934px;
+    height: 517px;
+    border: none;
+    outline: none;
+    background: white;
+    display: grid;
+    grid-template-areas:
+        "imagem"
+        "formulario"
+        "icones";
+    grid-template-columns: 37.5% 6.25% 50% 6.25%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+.imagem{
+    background: url('../img/fundo.png');
+    background-size: cover;
+    background-color: #EAD5E6;
+    background-repeat: no-repeat;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.texto .texto-login{
+    font-family: 'Varela Round', sans-serif;
+    color: #bbb2b9;
+    font-weight: bold;
+    padding: 0.5em;
+    margin-top: 3em;
+}
+
+.icones-login{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.icones-login .icones{
+    border-radius: 50px;
+    box-shadow: 0.7px 0.7px 0.7px black;
+    display: flex;
+    color: #616670;
+    align-items: center;
+    justify-content: center;
+    width: 10px;
+    height: 10px;
+    padding: 1em;
+    margin: 0.5em;
+    margin-bottom: 3em;
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.5em;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.formulario .input{
+    outline: none;
+    background: #F4F6F8;
+    width: 300px;
+    border: none;
+    margin: 0.5em;
+    padding: 1em;
+}
+
+.formulario .botao-login{
+    margin: 1em;
+    border: none;
+    cursor: pointer;
+    background: #e4c5de;
+    padding: 0.5em;
+    transition: 0.5s all;
+    border-radius: 20px;
+    font-family: 'Varela Round', sans-serif;
+    width: 150px;
+}
+
+.formulario .botao-login:hover{
+    margin: 1em;
+    border: none;
+    cursor: pointer;
+    background: #E24B89;
+    padding: 0.6em;
+    transition: 0.5s all;
+    border-radius: 20px;
+    font-family: 'Varela Round', sans-serif;
+    width: 155px;
+}
+
+::-webkit-input-placeholder{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.rodape .texto-rodape{
+    font-family: 'Varela Round', sans-serif;
+    font-style: italic;
+    font-size: 11.9pt;
+    color: #aaa;
+}
