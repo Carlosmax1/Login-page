@@ -3,7 +3,7 @@ body{
 }
 
 .caixa{
-    transform: translate(33%, 13%);
+    transform: translate(23%, 11%);
     width: 934px;
     height: 517px;
     border: none;
@@ -14,7 +14,7 @@ body{
         "imagem"
         "formulario"
         "icones";
-    grid-template-columns: 37.5% 6.25% 50% 6.25%;
+    grid-template-columns: 40% 5% 50% 5%;
     grid-template-rows: 25% 25% 25% 25%;
 }
 
@@ -122,7 +122,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5em;
+    margin-top: 3.5em;
 }
 
 .rodape .texto-rodape{
