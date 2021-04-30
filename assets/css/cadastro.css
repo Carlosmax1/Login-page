@@ -13,10 +13,9 @@ body{
     grid-template-areas:
         "imagem"
         "formulario"
-        "registro"
         "icones";
     grid-template-columns: 40% 5% 50% 5%;
-    grid-template-rows: 25% 25% 25% 12.5% 12.5%;
+    grid-template-rows: 25% 25% 25% 25%;
 }
 
 .imagem{
@@ -27,7 +26,7 @@ body{
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 1;
-    grid-row-end: 6;
+    grid-row-end: 5;
 }
 
 .texto{
@@ -40,26 +39,25 @@ body{
     grid-row-end: 1;
 }
 
-.texto .texto-login{
+.texto .texto-cadastro{
     font-family: 'Varela Round', sans-serif;
     color: #bbb2b9;
     font-weight: bold;
-    padding: 0.5em;
-    margin-top: 3em;
+    margin-bottom: 0.5em;
 }
 
-.icones-login{
+.icones-cadastro{
     grid-column-start: 3;
     grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
 }
 
-.icones-login .icones{
+.icones-cadastro .icones{
     border-radius: 50px;
     box-shadow: 0.7px 0.7px 0.7px black;
     display: flex;
@@ -70,7 +68,8 @@ body{
     height: 10px;
     padding: 1em;
     margin: 0.5em;
-    margin-bottom: 3em;
+    margin-top: 7em;
+
 }
 
 .formulario{
@@ -88,10 +87,11 @@ body{
     width: 300px;
     border: none;
     margin: 0.5em;
+    margin-top: 1em;
     padding: 1em;
 }
 
-.formulario .botao-login{
+.formulario .botao-cadastro{
     margin: 1em;
     border: none;
     cursor: pointer;
@@ -103,7 +103,7 @@ body{
     width: 150px;
 }
 
-.formulario .botao-login:hover{
+.formulario .botao-cadastro:hover{
     margin: 1em;
     border: none;
     cursor: pointer;
@@ -122,29 +122,15 @@ body{
 .registro{
     grid-column-start: 3;
     grid-column-end: 3;
-    grid-row-start: 5;
-    grid-row-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 3;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.registro .texto-registro{
+.registro .texto-cadastro{
     font-family: 'Varela Round', sans-serif;
-    transition: 0.5s all;
-    color: #e4c5de;
-}
-
-.registro .texto-registro:hover{
-    transition: 0.5s all;
-    font-size: 12.5pt;
-    font-family: 'Varela Round', sans-serif;
-    color: #E24B89;
-}
-
-.registro .texto-registro-a{
-    outline: none;
-    text-decoration: none;
 }
 
 .rodape{
