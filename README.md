@@ -6,7 +6,7 @@ Minha primeira página de login feita.
 - [x] Criando o grid template.
 - [x] Criando os inputs com o HTML.
 - [x] Estilizando os inputs.
-- [ ] Página de cadastro.
+- [x] Página de cadastro.
 - [ ] Página do usuário.
 - [ ] Responsivel para mobile.
 - [ ] Implementando o back-end.
