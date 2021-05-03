@@ -12,4 +12,13 @@ Minha primeira página de login feita.
 - [ ] Implementando o back-end.
 
 ## Resultado Final:
+
+### Login:
 ![](page-login.png)
+
+## Cadastro:
+![](page-cadastro.png)
+
+## Perfil:
+![](example-perfil.png)
+![](example-perfil-footer.png)
