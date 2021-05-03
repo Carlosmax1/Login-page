@@ -1,0 +1,86 @@
+body{
+    background: url('../img/fundo-perfil.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info .container .foto-perfil{
+    width: 200px;
+    margin: 1em;
+    border-radius: 100px;
+    height: 200px;
+}
+
+.info .nome .nome-texto{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes .icones{
+    cursor: pointer;
+    padding: 1em;
+}
+
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.botao{
+    font-family: 'Varela Round', sans-serif;
+    width: 100%;
+    padding: 0.8em;
+    cursor: pointer;
+    margin: 1em;
+    border-radius: 36px;
+    border: 2px solid rgb(255, 255, 255);
+    outline: none;
+    background: white;
+    transition: 0.4s all;
+}
+
+.botao:hover{
+    font-family: 'Varela Round', sans-serif;
+    width: 100%;
+    transform: scale(1.06);
+    padding: 0.8em;
+    transition: 0.4s all;
+    cursor: pointer;
+    margin: 1em;
+    border-radius: 36px;
+    border: 2px solid rgb(255, 255, 255);
+    outline: none;
+    background: #eeeded;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape .texto-rodape{
+    font-family: 'Varela Round', sans-serif;
+    font-style: italic;
+}
