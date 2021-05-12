@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/normalize.css"/>
+    <link rel="stylesheet" href="./assets/css/reset.css"/>
+    <link rel="stylesheet" href="./assets/css/painel.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <title>[Nome] - Painel</title>
+</head>
+<body>
+    <div class="caixa">
+        <section class="usuario">
+            <img class="usuario-foto" src="./assets/img/carlos.jpg">
+            <a class="usuario-nome-text" href="#"><p class="usuario-nome">@Carlos</p></a>
+        </section>
+
+        <section class="redes">
+            <div class="icones">
+                <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+            </div>
+            <div class="icones">
+                <a href="#"><i class="fab fa-github fa-lg"></i></a>
+            </div>
+            <div class="icones">
+                <a href="#"><i class="fab fa-linkedin-in fa-lg"></i></a>
+            </div>
+            <div class="icones">
+                <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+            </div>
+        </section>
+
+        <section class="configs">
+            <h2 class="configs-titulo">Adicione seus links!</h2>
+            <div class="inputs">
+                <label for="Instagram"><i class="fab fa-instagram fa-lg"></i></label>
+                <input placeholder="Instagram" class="input-redes" type="url">
+                <button class="botao-add">Adicionar</button>
+                <button class="botao-remove">Remover</button>
+            </div>
+            <div class="inputs">
+                <label for="Twitter"><i class="fab fa-twitter fa-lg"></i></label>
+                <input placeholder="Twitter" class="input-redes" type="url">
+                <button class="botao-add">Adicionar</button>
+                <button class="botao-remove">Remover</button>
+            </div>
+            <div class="inputs">
+                <label for="GitHub"><i class="fab fa-github fa-lg"></i></label>
+                <input placeholder="GitHub" class="input-redes" type="url">
+                <button class="botao-add">Adicionar</button>
+                <button class="botao-remove">Remover</button>
+            </div>
+            <div class="inputs">
+                <label for="Linkedin"><i class="fab fa-linkedin-in fa-lg"></i></label>
+                <input placeholder="Linkedin" class="input-redes" type="url">
+                <button class="botao-add">Adicionar</button>
+                <button class="botao-remove">Remover</button>
+            </div>
+            <div class="inputs">
+                <label for="links"><i class="fas fa-list fa-lg"></i></label>
+                <select class="list-redes" name="redes">
+                    <option value="video" class="ops">Video</option>
+                    <option value="facebook" class="ops">Facebook</option>
+                    <option value="texto" class="ops">Texto</option>
+                </select>
+                <input placeholder="Link" class="input-redes" type="url">
+                <button class="botao-add">Adicionar</button>
+                <button class="botao-remove">Remover</button>
+            </div>
+            <div class="inputs">
+                <p class="background-text">Background</p>
+                <label name="background" for="Background"><i class="fas fa-file-upload fa-lg"></i></label>
+                <input class="input-redes" type="file">
+                <button class="botao-add">Enviar</button>
+                <button class="botao-remove">Remover</button>
+            </div>
+            <div class="logout">
+                <button class="logout-botao">Logut</button>
+            </div>
+        </section>
+
+        <footer class="rodape">
+            <p class="texto-rodape">&copy; Desenvolvido por Carlos.</p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</body>
+</html>

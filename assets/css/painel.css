@@ -1,0 +1,132 @@
+body{
+    background: #EAD5E6;
+}
+
+.usuario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.usuario .usuario-foto{
+    margin-top: 1em;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+.usuario .usuario-nome{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15pt;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes .icones{
+    margin: 1em;
+    cursor: pointer;
+}
+
+.configs{
+    text-align: center;
+    margin: 1em;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.inputs{
+    margin: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs .input-redes{
+    margin: 0.5em;
+    padding: 0.3em;
+}
+
+.inputs .list-redes{
+    margin: 0.5em;
+}
+
+.inputs .background-text{
+    margin: 0.5em;
+}
+
+.inputs .botao-add{
+    margin: 0.5em;
+    padding: 0.5em;
+    cursor: pointer;
+    background: #f5d9ef;
+    outline: none;
+    transition: 0.5s all;
+    border-radius: 10px;
+    border: none;
+}
+
+.inputs .botao-remove{
+    margin: 0.5em;
+    padding: 0.5em;
+    cursor: pointer;
+    transition: 0.5s all;
+    background: #e4c5de;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+}
+
+.inputs .botao-add:hover{
+    margin: 0.5em;
+    padding: 0.7em;
+    cursor: pointer;
+    background: #f5d9ef;
+    outline: none;
+    transition: 0.5s all;
+    border-radius: 10px;
+    border: none;
+}
+
+.inputs .botao-remove:hover{
+    margin: 0.5em;
+    padding: 0.7em;
+    transition: 0.5s all;
+    cursor: pointer;
+    background: #e4c5de;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+}
+
+.logout .logout-botao{
+    margin: 0.5em;
+    padding: 0.7em;
+    cursor: pointer;
+    background: #f5d9ef;
+    outline: none;
+    transition: 0.5s all;
+    border-radius: 10px;
+    border: none;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape .texto-rodape{
+    font-family: 'Varela Round', sans-serif;
+    font-style: italic;
+    font-size: 11.9pt;
+    color: #aaa;
+}
